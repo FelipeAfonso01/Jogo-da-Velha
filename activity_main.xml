@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="2dp" tools:context=".MainActivity">
+
+
+    <TextView
+        android:text="Jogo da Velha Felipe "
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Um jogador"
+        android:id="@+id/buttonGet" />
+
+    <Button
+        android:id="@+id/incluir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dois jogadores" />
+
+
+
+
+</LinearLayout>
